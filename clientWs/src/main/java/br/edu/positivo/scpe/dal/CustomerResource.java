@@ -1,7 +1,5 @@
 package br.edu.positivo.scpe.dal;
 
-import javax.jws.WebMethod;
-import javax.jws.WebService;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;

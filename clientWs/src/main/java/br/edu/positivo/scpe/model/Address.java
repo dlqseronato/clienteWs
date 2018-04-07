@@ -8,8 +8,9 @@ import javax.persistence.Table;
 @Entity
 @Table(name="ADDRESS")
 public class Address {
+
+	@Id
     @Column(name="ID")
-    @Id
 	private int id;
     
     @Column(name="STREET")
